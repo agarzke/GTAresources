@@ -1,0 +1,22 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <link rel="stylesheet" href="reset.css" type="text/css">
+        <link rel="stylesheet" href="index.css" type="text/css">
+        <script src="nui://game/ui/jquery.js" type="text/javascript"></script>
+    </head>
+
+    <body>
+        <div id="inventory">
+            <div id="inv-cell" ondrop="drop(event)" ondragover="allowDrop(event)">
+                <img src="img/carkey.png" draggable="true" ondragstart="drag(event)" id="drag1" width="35" height="35">
+            </div>
+
+            <div id="inv-cell" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+            <div id="inv-cell" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+
+        </div> 
+
+        <script src="./index.js" type="text/javascript"></script>
+    </body>
+</html>

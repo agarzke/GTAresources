@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="./css/jquery-ui.css">
+  <link rel="stylesheet" href="/resources/demos/style.css">
+    <style>
+        #draggable { width: 150px; height: 150px; background-color: white; padding: 8px}
+        #item-img{position: relative; left: 50%; top: 50%; transform: translate(-50%, -50%);}
+        .inventory-grid td{width: 150px; height: 150px; padding: 50px; background-color: grey;}
+    </style>
+  <script src="js/jquery-1.12.4.js"></script>
+  <script src="js/jquery-ui.js"></script>
+    <script>
+    /*$( function() {
+    $( "#draggable" ).draggable({snap: ".ui-widget-header", snapMode: "inner", revert: "invalid"});
+    $( ".ui-widget-header" ).droppable({
+      drop: function( event, ui ) {
+        $( this )
+          .addClass( "ui-state-highlight" )
+          .find( "p" )
+            .html( "Dropped!" );
+      }
+    });
+  } );*/
+    </script>
+</head>
+<body>
+ 
+    <div id="draggable">
+        <img src="img/carkey.png" draggable="true" ondragstart="drag(event)" id="item-img">
+    </div>
+
+
+    <table class="inventory-grid">
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+    </table>
+ 
+    <script src="./index.js" type="text/javascript"></script>
+</body>
+</html>

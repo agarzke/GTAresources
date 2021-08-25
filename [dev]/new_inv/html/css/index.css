@@ -1,0 +1,32 @@
+.block {
+    z-index:9999;
+    cursor:move;
+}
+
+li {
+    list-style:none;
+}
+tr {
+    border: 2px solid black;
+}
+table {
+    border: 2px solid black;
+}
+
+.inputs div {
+    float:left;
+    background-color:#FFFFFF;
+    color:#004E66;
+    font-size:x-large;
+    margin:2px;
+    padding:20px;
+    border:1px solid black;
+}
+
+.spaces td {
+    background-color:#666666;
+    margin:2px;
+    width:184px;
+    height: 99px;
+    border:2px solid black;
+}
