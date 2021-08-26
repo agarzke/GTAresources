@@ -22,6 +22,8 @@ $(function(){
         }
     }
 
+    //added a new feature!
+
     display(false) // DEBUG! Set to false!
 
     window.addEventListener("message", function(event){
