@@ -23,7 +23,7 @@ $(function(){
     }
     // big gamechanger in develop
     display(false) // DEBUG! Set to false!
-
+// hmmm test ok
     window.addEventListener("message", function(event){
         let item = event.data;
 
