@@ -23,7 +23,12 @@ $(function(){
     }
     // big gamechanger in develop
     display(false) // DEBUG! Set to false!
+
+    //mhhh yes beeg change in feature branch
+
+
 // hmmm test ok
+
     window.addEventListener("message", function(event){
         let item = event.data;
 
