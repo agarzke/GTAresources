@@ -21,6 +21,7 @@ $(function(){
             $("#inventory").hide();
         }
     }
+    // another beeg boy in dev branch
     // big gamechanger in develop
     display(false) // DEBUG! Set to false!
 
