@@ -25,6 +25,7 @@ $(function(){
     //Some change only made in develop...
 
     //added a new feature!
+    //another great feature!
 
     display(false) // DEBUG! Set to false!
 
