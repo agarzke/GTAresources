@@ -22,6 +22,7 @@ $(function(){
         }
     }
     display(false) // DEBUG! Set to false!
+    //mhhh yes beeg change in feature branch
 
     window.addEventListener("message", function(event){
         let item = event.data;
@@ -36,7 +37,7 @@ $(function(){
         }
     })
 
-    document.onkeyup = function(data){                  // ESC press: 
+    document.onkeyup = function(data){                  // ESC press:
         if(data.which == 27){
             $.post("http://new_inv/exit", JSON.stringify({}));
             return;
@@ -51,11 +52,11 @@ $(function(){
         revertDuration: 100,
         start:function(){$(this).stop(true,true)}
    });
-  
+
      $('.inventory-grid td').droppable({
          drop:function(event, ui){
              snapToMiddle(ui.draggable,$(this));
-         }     
+         }
      });
 })
 
