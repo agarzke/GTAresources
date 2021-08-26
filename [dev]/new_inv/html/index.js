@@ -21,14 +21,8 @@ $(function(){
             $("#inventory").hide();
         }
     }
-    // another beeg boy in dev branch
-    // big gamechanger in develop
+
     display(false) // DEBUG! Set to false!
-
-    //mhhh yes beeg change in feature branch
-
-
-// hmmm test ok
 
     window.addEventListener("message", function(event){
         let item = event.data;
@@ -70,4 +64,8 @@ function snapToMiddle(dragger, target){
     var topMove = target.position().top - dragger.data('position').top + (target.outerHeight(true) - dragger.outerHeight(true)) / 2;
     var leftMove= target.position().left - dragger.data('position').left + (target.outerWidth(true) - dragger.outerWidth(true)) / 2;
     dragger.animate({top:topMove,left:leftMove},{duration:100,easing:'easeOutBack'});
+}
+
+function testingYes(){
+    
 }
